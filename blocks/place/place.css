@@ -1,0 +1,9 @@
+.place {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 80px;
+}
+
+.place:last-of-type {
+  padding: 0 0 0;
+}
