@@ -2,11 +2,14 @@
   display: flex;
   justify-content: space-between;
   padding: 92px 48px 24px;
+  max-width: calc(1280px - 48px*2);
+ 
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
     padding: 92px 48px 24px;
+    max-width: 100%;
   }
 }
 
@@ -22,3 +25,6 @@
     padding: 64px 118px 24px 16px;
   }
 }
+
+
+

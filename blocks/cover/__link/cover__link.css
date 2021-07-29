@@ -14,15 +14,21 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1127px) {
+  .cover__link {
+    padding: 245px calc((100vw - 560px)/2);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .cover__link {
-    padding: 195px 232px 195px;
+    padding: 195px calc((100vw - 560px)/2);
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__link {
-    padding: 115px 104px 115px;
+    padding: 115px 1calc((100vw - 560px)/2);
   }
 }
 
