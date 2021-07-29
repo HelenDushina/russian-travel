@@ -5,6 +5,12 @@
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 739px) {
+  .place__row {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .place__row {
     justify-content: center;

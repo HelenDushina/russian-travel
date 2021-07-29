@@ -1,5 +1,6 @@
 .content{
     max-width: calc(1280px - 48px*2);
+    min-width: 320px;
 }
 
 @media screen and (max-width: 1024px) {
