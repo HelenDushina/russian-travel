@@ -10,25 +10,24 @@
 
 .cover__link:hover {
   background: rgba(42, 44, 47, 0.8);
-  opacity: 0.8;
   cursor: pointer;
 }
 
 @media screen and (max-width: 1127px) {
   .cover__link {
-    padding: 245px calc((100vw - 560px)/2);
+    padding: 245px calc((100vw - 560px) / 2);
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__link {
-    padding: 195px calc((100vw - 560px)/2);
+    padding: 195px calc((100vw - 560px) / 2);
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__link {
-    padding: 115px 1calc((100vw - 560px)/2);
+    padding: 115px calc((100vw - 560px) / 2);
   }
 }
 
